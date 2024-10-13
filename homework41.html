@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+txt = 'JavaScript';
+txt = txt.split('').reverse().join('');
+alert(txt);
+
+txt = 'Guten Morgen, Sonnenschein';
+txt = txt.split('').reverse().join('');
+alert(txt);
+
+
+let year = prompt ('What year is it now?');
+if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+           alert("The given year is the leap year.");
+       }else{
+           alert("The given year is not a leap year.");
+       }
+    </script>
+</body>
+</html>
